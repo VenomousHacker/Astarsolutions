@@ -1167,7 +1167,8 @@ section {
 
   #contact .contact-address,
   #contact .contact-phone,
-  #contact .contact-email {
+  #contact .contact-email,
+  #contact .contact-hours {
     padding: 20px 0;
   }
 }
@@ -1176,6 +1177,13 @@ section {
   #contact .contact-phone {
     border-left: 1px solid #ddd;
     border-right: 1px solid #ddd;
+  }
+}
+
+@media (min-width: 768px) {
+  #contact .contact-hours {
+    border-left: 1px solid #ddd;
+/*    border-right: 1px solid #ddd;*/
   }
 }
 
@@ -1287,7 +1295,7 @@ section {
 
 #footer .copyright {
   text-align: center;
-  padding-top: 30px;
+/*  padding-top: 5px;*/
 }
 
 #footer .credits {
